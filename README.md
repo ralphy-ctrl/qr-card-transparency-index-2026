@@ -3,7 +3,7 @@
 An evidence-first comparison of free digital business card services, QR-code continuity claims, recipient friction, editability after printing, and public pricing transparency.
 
 **Evidence checked:** 2026-08-08  
-**Dataset version:** 1.0.1  
+**Dataset version:** 1.0.2  
 **Coverage:** 14 services  
 **License:** CC BY 4.0
 
@@ -70,7 +70,7 @@ You may reuse this dataset under the Creative Commons Attribution 4.0 Internatio
 
 Suggested citation before DOI publication:
 
-> Saive, Rafaël. *QR Permanence & Free Digital Business Card Transparency Index 2026*. Version 1.0.1, 8 August 2026. CC BY 4.0.
+> Saive, Rafaël. *QR Permanence & Free Digital Business Card Transparency Index 2026*. Version 1.0.2, 8 August 2026. CC BY 4.0.
 
 ## Disclosure
 
