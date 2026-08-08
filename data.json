@@ -7,6 +7,9 @@
     "author": "Rafaël Saive",
     "affiliation": "Le Chemin Numérique ASBL",
     "repository": "https://github.com/ralphy-ctrl/qr-card-transparency-index-2026",
+    "doi": "10.5281/zenodo.21845552",
+    "concept_doi": "10.5281/zenodo.21845551",
+    "zenodo_record": "https://zenodo.org/records/21845552",
     "disclosure": "The author is the founder of GetQRcard. GetQRcard.com and MaCarteQR.fr are services of Le Chemin Numérique ASBL, based in Liège, Belgium.",
     "method": "First-party documentation audit. The GetQRcard analytics-retention and IP-hashing correction in version 1.0.1 is based on a maintainer code review. No long-term uptime testing was performed."
   },
