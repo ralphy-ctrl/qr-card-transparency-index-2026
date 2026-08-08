@@ -16,17 +16,17 @@ GetQRcard offre aux particuliers une carte de visite numérique gratuite derriè
 
 ## Full description — English
 
-GetQRcard is a multilingual digital business card service published by Le Chemin Numérique ASBL, a Belgian nonprofit based in Liège. Its free plan includes one editable card, a permanent QR address, a downloadable vCard, an email signature, and thirty days of scan statistics. Recipients open the card in their browser and save it on iPhone or Android without installing an app.
+GetQRcard is a multilingual digital business card service published by Le Chemin Numérique ASBL, a Belgian nonprofit based in Liège. Its free plan includes one editable card, a permanent QR address, a downloadable vCard, and an email signature. Scan totals and breakdowns by device and country are available from the beginning; the day-by-day chart shows the most recent 30 days. Recipients open the card in their browser and save it on iPhone or Android without installing an app.
 
-The €15 annual plan adds unlimited cards, spreadsheet-based bulk creation, hosted PDF documents, unlimited statistics history, and an account-holder name confirmed through the payment provider. Schools, municipalities, nonprofits, practices, and other teams can use the same plan to create cards in bulk.
+The €15 annual plan adds unlimited cards, spreadsheet-based bulk creation, hosted PDF documents, a 90-day day-by-day scan chart, and an account-holder name confirmed through the payment provider. Scan events are retained without automatic deletion under both plans, and the all-time totals and device/country breakdowns remain available. Schools, municipalities, nonprofits, practices, and other teams can use the same plan to create cards in bulk.
 
 GetQRcard has no advertising and states that personal data is never sold or rented. Operating costs are paid first; any nonprofit surplus is described as supporting Le Chemin Numérique’s practical digital work with primary schools in Wallonia.
 
 ## Full description — French
 
-GetQRcard est un service multilingue de cartes de visite numériques édité par Le Chemin Numérique ASBL, une association belge basée à Liège. L’offre gratuite comprend une carte modifiable, une adresse QR permanente, une vCard téléchargeable, une signature d’e-mail et trente jours de statistiques de scan. Le destinataire ouvre la carte dans son navigateur et l’enregistre sur iPhone ou Android sans installer d’application.
+GetQRcard est un service multilingue de cartes de visite numériques édité par Le Chemin Numérique ASBL, une association belge basée à Liège. L’offre gratuite comprend une carte modifiable, une adresse QR permanente, une vCard téléchargeable et une signature d’e-mail. Les totaux ainsi que la répartition par appareil et par pays sont disponibles depuis le début ; la courbe jour par jour affiche les 30 derniers jours. Le destinataire ouvre la carte dans son navigateur et l’enregistre sur iPhone ou Android sans installer d’application.
 
-L’offre annuelle à 15 € ajoute un nombre illimité de cartes, la création en masse depuis un tableau, l’hébergement d’un document PDF, l’historique complet des statistiques et la confirmation du nom du titulaire par le prestataire de paiement. Les écoles, communes, associations, cabinets et autres équipes peuvent utiliser cette même formule pour créer leurs cartes en nombre.
+L’offre annuelle à 15 € ajoute un nombre illimité de cartes, la création en masse depuis un tableau, l’hébergement d’un document PDF, une courbe jour par jour sur 90 jours et la confirmation du nom du titulaire par le prestataire de paiement. Les événements de scan sont conservés sans suppression automatique dans les deux offres, tandis que les totaux et les répartitions par appareil et par pays restent disponibles depuis le début. Les écoles, communes, associations, cabinets et autres équipes peuvent utiliser cette même formule pour créer leurs cartes en nombre.
 
 GetQRcard ne comporte aucune publicité et déclare ne jamais vendre ni louer les données personnelles. Les paiements couvrent d’abord les frais de fonctionnement ; l’éventuel surplus de l’ASBL contribue aux actions numériques concrètes de Le Chemin Numérique auprès des écoles primaires de Wallonie.
 
@@ -40,7 +40,7 @@ Because the service is published by a registered nonprofit rather than a venture
 
 ### Why did you choose this idea?
 
-I chose it because it was a service I needed and could not find in the form I wanted: a genuinely free personal digital business card whose printed QR code would stay useful when contact details changed. I did not want the basic card to become a subscription trap. Individuals receive one editable card free of charge and without a time limit; organizations and users who need unlimited cards, bulk generation, hosted documents, or longer statistics history can choose the €15 annual plan.
+I chose it because it was a service I needed and could not find in the form I wanted: a genuinely free personal digital business card whose printed QR code would stay useful when contact details changed. I did not want the basic card to become a subscription trap. Individuals receive one editable card free of charge and without a time limit; organizations and users who need unlimited cards, bulk generation, hosted documents, or a 90-day day-by-day scan chart can choose the €15 annual plan.
 
 The model keeps the useful core accessible while asking larger deployments to contribute to the real cost of maintaining the service. It also turns a simple business-card tool into a small funding mechanism for Le Chemin Numérique’s work with primary schools in Wallonia.
 
@@ -68,4 +68,5 @@ Le Chemin Numérique ASBL est une association belge basée à Liège et enregist
 - Do not say that Wallet support is already available before the announced release is verified live.
 - Do not call the paid-name feature “identity verification.” The service describes it as confirmation of the account-holder name through the payment provider.
 - Do not describe GetQRcard as a Brussels-based project. The publisher and founder are based in Liège.
-
+- Do not describe the 30-day or 90-day chart window as a scan-retention period. Scan events have no automatic deletion period in the reviewed implementation; the limit applies only to the day-by-day chart.
+- Do not describe the paid plan as the only plan with all-time totals, device breakdowns, or country breakdowns. Those views cover the full period in both plans.
