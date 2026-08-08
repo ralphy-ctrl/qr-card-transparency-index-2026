@@ -1,5 +1,7 @@
 # QR Permanence & Free Digital Business Card Transparency Index 2026
 
+[![DOI](https://zenodo.org/badge/1327328159.svg)](https://doi.org/10.5281/zenodo.21845551)
+
 An evidence-first comparison of free digital business card services, QR-code continuity claims, recipient friction, editability after printing, and public pricing transparency.
 
 **Evidence checked:** 2026-08-08  
@@ -8,6 +10,9 @@ An evidence-first comparison of free digital business card services, QR-code con
 **License:** CC BY 4.0
 
 **Public repository:** https://github.com/ralphy-ctrl/qr-card-transparency-index-2026
+
+**Permanent archive:** https://doi.org/10.5281/zenodo.21845551  
+**Version 1.0.2 DOI:** https://doi.org/10.5281/zenodo.21845552
 
 ## Why this dataset exists
 
@@ -66,11 +71,11 @@ It is a documentation audit, not a laboratory uptime test and not a prediction t
 
 ## Reuse and citation
 
-You may reuse this dataset under the Creative Commons Attribution 4.0 International license. Please cite the dataset title, version, author, verification date, and DOI once a DOI is issued.
+You may reuse this dataset under the Creative Commons Attribution 4.0 International license. Please cite the dataset title, version, author, verification date, and DOI.
 
-Suggested citation before DOI publication:
+Suggested citation:
 
-> Saive, Rafaël. *QR Permanence & Free Digital Business Card Transparency Index 2026*. Version 1.0.2, 8 August 2026. CC BY 4.0.
+> Saive, Rafaël. *QR Permanence & Free Digital Business Card Transparency Index 2026*. Version 1.0.2, 8 August 2026. Zenodo. https://doi.org/10.5281/zenodo.21845552
 
 ## Disclosure
 
