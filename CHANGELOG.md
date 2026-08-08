@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2 — 2026-08-08
+
+- Enabled automatic archival through the official Zenodo GitHub integration.
+- Prepared a documentation-only release to obtain a persistent DOI and improve citation and discovery.
+- No service observations or comparison results changed from version 1.0.1.
+
 ## 1.0.1 — 2026-08-08
 
 - Corrected GetQRcard scan analytics: scan events have no automatic deletion period in the reviewed implementation.
