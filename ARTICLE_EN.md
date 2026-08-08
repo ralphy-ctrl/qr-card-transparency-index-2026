@@ -95,6 +95,6 @@ That is what this project is trying to provide.
 
 — Rafaël Saive
 
-*QR Permanence & Free Digital Business Card Transparency Index 2026*, version 1.0.1. Fourteen services, official sources and a documented maintainer correction, verified 8 August 2026.
+*QR Permanence & Free Digital Business Card Transparency Index 2026*, version 1.0.2. Fourteen services, official sources and a documented maintainer correction, verified 8 August 2026. This documentation-only release does not change the observations in version 1.0.1.
 
 Disclosure: Rafaël Saive is the founder of GetQRcard. GetQRcard.com and MaCarteQR.fr are services of Le Chemin Numérique ASBL.
