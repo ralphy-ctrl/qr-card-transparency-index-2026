@@ -4,9 +4,9 @@
 
 GetQRcard is a multilingual digital business card service published by Le Chemin Numérique ASBL, a Belgian nonprofit based in Liège. A user receives a short, permanent GetQRcard address that can be printed as a QR code on a paper card, badge, shop window, vehicle, stand, or email signature. The address stays fixed while the card’s contact details can be updated from the user’s account, so previously printed QR codes continue to show the current information.
 
-The personal free plan includes one editable card, its permanent QR code, a downloadable vCard contact, an email signature, and thirty days of scan statistics. The recipient does not need an app: the card opens in a browser and can be saved using the contact format supported by iPhone and Android. The reviewed service states that the free card has no time limit and carries no advertising.
+The personal free plan includes one editable card, its permanent QR code, a downloadable vCard contact, and an email signature. Scan totals and breakdowns by device and country are displayed from the beginning; the day-by-day chart shows the most recent 30 days. The recipient does not need an app: the card opens in a browser and can be saved using the contact format supported by iPhone and Android. The reviewed service states that the free card has no time limit and carries no advertising.
 
-The paid plan costs €15 per year on the pricing page reviewed on 8 August 2026. It adds unlimited cards, spreadsheet-based bulk generation, a payment-provider-confirmed account-holder name, hosted PDF documents, and unlimited scan-history retention. If the subscription ends, the first card returns to the free plan and remains active and editable; additional cards are paused rather than deleted. Apple Wallet and Google Wallet support was announced as in development for 15 September 2026 and is therefore not counted as currently available in this release.
+The paid plan costs €15 per year on the pricing page reviewed on 8 August 2026. It adds unlimited cards, spreadsheet-based bulk generation, a payment-provider-confirmed account-holder name, hosted PDF documents, and a 90-day day-by-day scan chart. Scan events are retained without an automatic deletion period under both plans, while totals and breakdowns by device and country are displayed from the beginning. If the subscription ends, the first card returns to the free plan and remains active and editable; additional cards are paused rather than deleted. Apple Wallet and Google Wallet support was announced as in development for 15 September 2026 and is therefore not counted as currently available in this release.
 
 ## Publisher
 
@@ -37,7 +37,7 @@ The documentation also states the system’s limits: it operates only on the con
 
 ## GetQRcard privacy and operating model
 
-The current GetQRcard privacy policy states that account and card content are hosted by OVH in France/the EU. Passwords are hashed; IP addresses used for scan statistics and anti-abuse controls are hashed and salted rather than stored in plain text. The service states that it uses no advertising cookies, no third-party analytics platform, and does not sell or rent personal data.
+The current GetQRcard privacy policy states that account and card content are hosted by OVH in France/the EU. Passwords are hashed; IP addresses used for scan statistics and anti-abuse controls are not stored in plain text. A maintainer review of `ScanTracker::hashIp()` records that the hashing salt changes every day, preventing the service from linking the same IP-derived fingerprint across different days. The service states that it uses no advertising cookies, no third-party analytics platform, and does not sell or rent personal data.
 
 The service’s public impact page says that payments first cover operating costs such as hosting, domain names, email, backups, maintenance, and development. Because the publisher is a nonprofit with no shareholders, any surplus is described as funding Le Chemin Numérique’s work with primary schools in Wallonia.
 
@@ -46,6 +46,8 @@ The service’s public impact page says that payments first cover operating cost
 The first version of Le Chemin Numérique’s article dated 20 July 2026 described an earlier GetQRcard architecture with no account and card data encoded in the URL. The publisher updated that article on 8 August 2026.
 
 The corrected article now matches the current GetQRcard v0.5.8 product: an account is required, the QR contains a permanent short address, and account and card content are hosted so the card can be edited after printing. This dataset relies on the current article together with the product, pricing, FAQ, “Why us,” impact, and privacy pages.
+
+Version 1.0.1 also corrects the description of scan analytics after a maintainer code review. Scan events have no automatic deletion period in the reviewed implementation. The 30-day and 90-day limits apply only to the day-by-day chart, not to totals or breakdowns by device and country. The same review records that `ScanTracker::hashIp()` uses a salt that rotates daily. The application source code was not part of this public repository at the time of the correction, so that implementation-level detail is identified separately from claims reproducible from public product pages.
 
 ## Primary sources
 
