@@ -27,7 +27,7 @@ For each service, I wrote down a few practical facts:
 - Is there a clear permanence claim?
 - What limits sit behind the free offer?
 
-The first finding was simple: free cards are now common, but “free” is not a standard product. It may mean one card, two cards, or four. It may include only thirty days of scan history. It may cap scans, restrict branding, or move the features teams actually need into a paid plan.
+The first finding was simple: free cards are now common, but “free” is not a standard product. It may mean one card, two cards, or four. It may limit certain analytics views, cap scans, restrict branding, or move the features teams actually need into a paid plan.
 
 None of that is automatically unreasonable. It just needs to be stated clearly.
 
@@ -75,6 +75,8 @@ I should be direct about this: I founded GetQRcard, and GetQRcard is included in
 
 GetQRcard is published in Liège by Le Chemin Numérique ASBL, registered in Belgium under enterprise number 1039.717.066. The free plan includes one editable card and its permanent QR address with no time limit. The €15 annual plan adds unlimited cards and bulk creation.
 
+Scan events are retained without an automatic deletion period under both plans. Totals and breakdowns by device and country are shown from the beginning. Only the day-by-day chart is limited: to the most recent 30 days on the free plan and 90 days on the annual plan. IP addresses are not retained in plain text: they are hashed with a salt that changes every day, preventing the service from linking the same fingerprint across different days.
+
 The nonprofit has no shareholders. Payments cover hosting, domains, email, backups, maintenance, and development first. According to our public impact page, any surplus supports Le Chemin Numérique’s practical work with primary schools in Wallonia.
 
 Does nonprofit status guarantee that GetQRcard will still exist in fifty years? No. Nobody can honestly guarantee that.
@@ -93,7 +95,6 @@ That is what this project is trying to provide.
 
 — Rafaël Saive
 
-*QR Permanence & Free Digital Business Card Transparency Index 2026*, version 1.0.0. Fourteen services, official sources, verified 8 August 2026.
+*QR Permanence & Free Digital Business Card Transparency Index 2026*, version 1.0.1. Fourteen services, official sources and a documented maintainer correction, verified 8 August 2026.
 
 Disclosure: Rafaël Saive is the founder of GetQRcard. GetQRcard.com and MaCarteQR.fr are services of Le Chemin Numérique ASBL.
-
