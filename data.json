@@ -1,14 +1,14 @@
 {
   "dataset": {
     "title": "QR Permanence & Free Digital Business Card Transparency Index 2026",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "verified_on": "2026-08-08",
     "license": "CC-BY-4.0",
     "author": "Rafaël Saive",
     "affiliation": "Le Chemin Numérique ASBL",
     "repository": "https://github.com/ralphy-ctrl/qr-card-transparency-index-2026",
     "disclosure": "The author is the founder of GetQRcard. GetQRcard.com and MaCarteQR.fr are services of Le Chemin Numérique ASBL, based in Liège, Belgium.",
-    "method": "First-party documentation audit. No long-term uptime testing was performed."
+    "method": "First-party documentation audit. The GetQRcard analytics-retention and IP-hashing correction in version 1.0.1 is based on a maintainer code review. No long-term uptime testing was performed."
   },
   "services": [
     {
@@ -27,7 +27,14 @@
       "editable_after_printing": "yes",
       "explicit_permanence_claim": "permanent QR code and card advertised free for life",
       "wallet_support_in_free_access": "not currently counted; announced as in development for 2026-09-15",
-      "free_access_limits": "one card and thirty days of scan history; no ads",
+      "free_access_limits": "one card; day-by-day scan chart limited to the most recent 30 days; totals and breakdowns by device and country shown from the beginning; no ads",
+      "scan_event_retention": "no automatic deletion period in the reviewed implementation, under either plan",
+      "scan_analytics_display": {
+        "free_plan": "totals, devices, and countries from the beginning; day-by-day chart for the most recent 30 days",
+        "annual_plan": "totals, devices, and countries from the beginning; day-by-day chart for the most recent 90 days"
+      },
+      "scan_ip_handling": "IP addresses are not retained in plain text; they are hashed with a salt that rotates daily, preventing cross-day linkage of the same fingerprint by the service",
+      "implementation_evidence": "Maintainer code review of scan retention behavior and ScanTracker::hashIp(), documented 2026-08-08; the source code was not part of the public repository at release time",
       "organization_offer": "yes",
       "published_team_price": "€15 per year for unlimited cards and bulk generation on the reviewed organization and pricing pages",
       "languages_documented": ["English", "French", "Dutch", "Spanish", "Chinese"],
