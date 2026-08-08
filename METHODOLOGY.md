@@ -6,7 +6,7 @@ What do digital business card vendors publicly document about free access, QR-co
 
 ## Verification date
 
-All observations in version 1.0.0 were checked on 2026-08-08. Version 1.0.1 adds a GetQRcard analytics-retention and IP-hashing correction based on a maintainer code review performed the same day. Because the application source was not part of this public repository, those implementation-level fields are labeled separately from claims reproducible through public product pages.
+All observations in version 1.0.0 were checked on 2026-08-08. Version 1.0.1 adds a GetQRcard analytics-retention and IP-hashing correction based on a maintainer code review performed the same day. Because the application source was not part of this public repository, those implementation-level fields are labeled separately from claims reproducible through public product pages. Version 1.0.2 is a documentation-only archival release for Zenodo and does not change the observations in version 1.0.1.
 
 ## Unit of analysis
 
