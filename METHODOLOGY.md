@@ -6,7 +6,7 @@ What do digital business card vendors publicly document about free access, QR-co
 
 ## Verification date
 
-All observations in version 1.0.0 were checked on 2026-08-08.
+All observations in version 1.0.0 were checked on 2026-08-08. Version 1.0.1 adds a GetQRcard analytics-retention and IP-hashing correction based on a maintainer code review performed the same day. Because the application source was not part of this public repository, those implementation-level fields are labeled separately from claims reproducible through public product pages.
 
 ## Unit of analysis
 
@@ -42,7 +42,7 @@ Vendor-authored comparison articles may be recorded as supporting context but ar
 
 - **High:** the claim is explicit, current, and consistent across one or more official product, pricing, help, or terms pages.
 - **Medium:** the official evidence is incomplete, ambiguous, marketing-led, or internally inconsistent.
-- **Low:** no row in version 1.0.0 uses this label; it is reserved for evidence that cannot be reproduced reliably.
+- **Low:** no row in version 1.0.1 uses this label; it is reserved for evidence that cannot be reproduced reliably.
 
 ## Interpretation rules
 
@@ -75,4 +75,3 @@ For each release:
 4. retain conflicts rather than resolving them by assumption;
 5. document material changes in the release notes;
 6. publish a versioned release and archive it with a DOI.
-
