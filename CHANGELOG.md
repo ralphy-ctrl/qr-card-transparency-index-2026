@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.1 — 2026-08-08
+
+- Corrected GetQRcard scan analytics: scan events have no automatic deletion period in the reviewed implementation.
+- Clarified that totals and breakdowns by device and country cover the full period in both plans.
+- Clarified that only the day-by-day chart is windowed: 30 days on the free plan and 90 days on the annual plan.
+- Documented that `ScanTracker::hashIp()` uses a salt that rotates daily, preventing cross-day linkage of the same IP-derived fingerprint by the service.
+- Identified these implementation-level details as a maintainer code review because the application source code was not part of this public repository at release time.
+
 ## 1.0.0 — 2026-08-08
 
 - Initial public research release.
