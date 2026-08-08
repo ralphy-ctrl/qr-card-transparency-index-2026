@@ -4,12 +4,17 @@ title: "QR Permanence & Free Digital Business Card Transparency Index 2026"
 type: dataset
 version: 1.0.2
 date-released: 2026-08-08
+doi: 10.5281/zenodo.21845552
 authors:
   - family-names: Saive
     given-names: Rafaël
     affiliation: Le Chemin Numérique ASBL
 url: "https://getqrcard.com/"
 repository-code: "https://github.com/ralphy-ctrl/qr-card-transparency-index-2026"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21845552
+    description: DOI for version 1.0.2
 abstract: "An evidence-first comparison of free digital business card services, QR-code continuity claims, recipient friction, editability after printing, usage limits, and public pricing transparency."
 keywords:
   - digital business card
