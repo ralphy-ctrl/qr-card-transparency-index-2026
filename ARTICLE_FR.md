@@ -27,7 +27,7 @@ Pour chaque service, j’ai noté des choses assez simples :
 - existe-t-il une promesse claire de permanence ?
 - quelles limites se cachent dans la formule gratuite ?
 
-Premier constat : la carte gratuite est devenue courante. Mais « gratuite » ne veut pas dire la même chose partout. Chez l’un, c’est une carte. Chez l’autre, deux ou quatre. Ailleurs, les statistiques disparaissent après trente jours, le nombre de scans est plafonné ou les fonctions utiles aux équipes passent dans une formule payante.
+Premier constat : la carte gratuite est devenue courante. Mais « gratuite » ne veut pas dire la même chose partout. Chez l’un, c’est une carte. Chez l’autre, deux ou quatre. Ailleurs, certaines vues statistiques sont limitées, le nombre de scans est plafonné ou les fonctions utiles aux équipes passent dans une formule payante.
 
 Ce n’est pas forcément mauvais. Il faut simplement le dire clairement.
 
@@ -75,6 +75,8 @@ Autant être clair : je suis le fondateur de GetQRcard. Le service figure dans l
 
 GetQRcard est édité à Liège par Le Chemin Numérique ASBL, enregistrée en Belgique sous le numéro 1039.717.066. La formule gratuite comprend une carte modifiable et son adresse QR permanente, sans limite de durée. La formule à 15 € par an ajoute les cartes illimitées et leur création en masse.
 
+Les événements de scan sont conservés sans durée d’effacement automatique dans les deux offres. Les totaux, les appareils et les pays sont affichés depuis le début. Seule la courbe jour par jour est limitée : aux 30 derniers jours dans l’offre gratuite et aux 90 derniers jours dans l’offre annuelle. Les adresses IP ne sont pas conservées en clair : elles sont hachées avec un sel qui change chaque jour, ce qui empêche le service de relier une même empreinte d’un jour à l’autre.
+
 L’ASBL n’a pas d’actionnaires. Les paiements couvrent d’abord l’hébergement, les domaines, les e-mails, les sauvegardes, la maintenance et le développement. Selon notre page consacrée à l’impact, l’éventuel surplus finance les actions de Le Chemin Numérique auprès des écoles primaires de Wallonie.
 
 Est-ce que ce statut associatif garantit que GetQRcard existera encore dans cinquante ans ? Non. Personne ne peut honnêtement garantir cela.
@@ -93,7 +95,6 @@ C’est exactement ce que cette étude essaie de faire.
 
 — Rafaël Saive
 
-*QR Permanence & Free Digital Business Card Transparency Index 2026*, version 1.0.0. Quatorze services, sources officielles, vérification du 8 août 2026.
+*QR Permanence & Free Digital Business Card Transparency Index 2026*, version 1.0.1. Quatorze services, sources officielles et correction documentée par le mainteneur, vérification du 8 août 2026.
 
 Déclaration : Rafaël Saive est le fondateur de GetQRcard. GetQRcard.com et MaCarteQR.fr sont des services de Le Chemin Numérique ASBL.
-
