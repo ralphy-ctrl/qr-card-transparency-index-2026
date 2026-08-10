@@ -13,7 +13,8 @@ An evidence-first comparison of free digital business card services, QR-code con
 
 **Permanent archive:** https://doi.org/10.5281/zenodo.21845551  
 **Version 1.0.2 DOI:** https://doi.org/10.5281/zenodo.21845552  
-**Internet Archive mirror:** https://archive.org/details/qr-card-transparency-index-2026
+**Internet Archive mirror:** https://archive.org/details/qr-card-transparency-index-2026  
+**Practical checklist:** https://gist.github.com/ralphy-ctrl/42dbfea84a2eb129b70db600fbed6419
 
 ## Why this dataset exists
 
