@@ -16,6 +16,8 @@ An evidence-first comparison of free digital business card services, QR-code con
 **Internet Archive mirror:** https://archive.org/details/qr-card-transparency-index-2026  
 **Practical checklist:** https://gist.github.com/ralphy-ctrl/42dbfea84a2eb129b70db600fbed6419
 
+**Read online:** [English article](https://ralphy-ctrl.github.io/qr-card-transparency-index-2026/ARTICLE_EN.html) · [Article français](https://ralphy-ctrl.github.io/qr-card-transparency-index-2026/ARTICLE_FR.html)
+
 ## Why this dataset exists
 
 “Free digital business card” can mean very different things: a permanent free card, a limited trial, a card with scan caps, or a free profile whose terms may change. A QR code may remain technically readable while the hosted destination behind it is limited, changed, or discontinued.
