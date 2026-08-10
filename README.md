@@ -12,7 +12,8 @@ An evidence-first comparison of free digital business card services, QR-code con
 **Public repository:** https://github.com/ralphy-ctrl/qr-card-transparency-index-2026
 
 **Permanent archive:** https://doi.org/10.5281/zenodo.21845551  
-**Version 1.0.2 DOI:** https://doi.org/10.5281/zenodo.21845552
+**Version 1.0.2 DOI:** https://doi.org/10.5281/zenodo.21845552  
+**Internet Archive mirror:** https://archive.org/details/qr-card-transparency-index-2026
 
 ## Why this dataset exists
 
