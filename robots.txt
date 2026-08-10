@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ralphy-ctrl.github.io/qr-card-transparency-index-2026/sitemap.xml
+  
